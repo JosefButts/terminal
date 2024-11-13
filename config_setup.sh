@@ -2,7 +2,7 @@ cd ${HOME}
 
 rm ${HOME}/.zshrc
 
-git clone --bare https://github.com/brona90/config.git ${HOME}/.cfg
+git clone --bare https://github.com/josefbutts/config.git ${HOME}/.cfg
 
 alias config="/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}"
 
