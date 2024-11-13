@@ -65,7 +65,7 @@ RUN useradd -ms /bin/zsh ${USERNAME}                  && \
 COPY *.sh /home/${USERNAME}
 
 # Install btop
-Run /home/${USERNAME}/btop.sh
+RUN /home/${USERNAME}/btop.sh
 
 # Install cheat.sh
 RUN /home/${USERNAME}/cheat.sh
