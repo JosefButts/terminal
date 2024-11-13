@@ -52,7 +52,7 @@ RUN DEBIAN_FRONTEND=noninteractive  \
   apt-get clean &&                  \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ARG USERNAME=gfoster
+ARG USERNAME=josef-butts
 ARG TTYPORT=8080
 
 # add user and set password to password
